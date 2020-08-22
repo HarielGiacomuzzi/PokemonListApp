@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="QTH-Ov-DCU">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokemon-logo" translatesAutoresizingMaskIntoConstraints="NO" id="KXh-xI-t2G">
+                                <rect key="frame" x="60" y="104" width="294" height="140"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="140" id="Asd-Yx-yRH"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="finder" translatesAutoresizingMaskIntoConstraints="NO" id="Mwv-tt-oOA">
+                                <rect key="frame" x="87" y="236" width="240" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="Kla-XT-ZSq"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pikachu" translatesAutoresizingMaskIntoConstraints="NO" id="9Uf-a6-afz">
+                                <rect key="frame" x="179" y="656" width="240" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="c3B-9n-Gq9"/>
+                                    <constraint firstAttribute="height" constant="240" id="eBX-LM-buZ"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="KXh-xI-t2G" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="60" id="8y9-lo-X3y"/>
+                            <constraint firstItem="QTH-Ov-DCU" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="AkI-5P-ipM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="KXh-xI-t2G" secondAttribute="trailing" constant="60" id="Azc-Z9-kFl"/>
+                            <constraint firstItem="Mwv-tt-oOA" firstAttribute="top" secondItem="KXh-xI-t2G" secondAttribute="bottom" constant="-8" id="DgF-31-0nb"/>
+                            <constraint firstAttribute="trailing" secondItem="9Uf-a6-afz" secondAttribute="trailing" constant="-5" id="GVj-7l-pVx"/>
+                            <constraint firstAttribute="bottom" secondItem="9Uf-a6-afz" secondAttribute="bottom" id="RDU-MD-0a7"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QTH-Ov-DCU" secondAttribute="trailing" id="c0s-Co-rny"/>
+                            <constraint firstAttribute="bottom" secondItem="QTH-Ov-DCU" secondAttribute="bottom" id="e7S-OM-etT"/>
+                            <constraint firstItem="Mwv-tt-oOA" firstAttribute="width" secondItem="KXh-xI-t2G" secondAttribute="width" multiplier="0.816327" id="eHb-48-oij"/>
+                            <constraint firstItem="QTH-Ov-DCU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lPd-vX-Nec"/>
+                            <constraint firstItem="Mwv-tt-oOA" firstAttribute="centerX" secondItem="KXh-xI-t2G" secondAttribute="centerX" id="lbW-eT-CDY"/>
+                            <constraint firstItem="KXh-xI-t2G" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="rwm-f6-SS2"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg" width="414" height="736"/>
+        <image name="finder" width="127" height="49"/>
+        <image name="pikachu" width="194" height="202"/>
+        <image name="pokemon-logo" width="303" height="111"/>
+    </resources>
+</document>

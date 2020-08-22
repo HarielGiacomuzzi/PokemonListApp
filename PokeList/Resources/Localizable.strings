@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  PokeList
+
+  Created by Hariel Giacomuzzi on 30/05/20.
+  Copyright © 2020 Hariel Giacomuzzi. All rights reserved.
+*/
+
+//MARK: - Commom
+"pokemon" = "Pokémon";
+"name" = "Name";
+"confirm" = "Confirm";
+
+//MARK: - InitialViewController
+"letsgo" = "Let's go!";
+
+//MARK: - SingupNameRegister
+"nameInstruction" = "Let's meet each other first?";
+"nameInstructionTwo" = "First we need to know your\nname...";
+
+//MARK: - SingupPokemonType
+"welcomeUser" = "Hello, trainer %@";
+"welcomeInstruction" = "...now tell us wich is your favorite\nPokémon type:";
+
+//MARK: - HomeViewController
+"homeTitle" = "Pokemon Finder";
